@@ -8,8 +8,8 @@ const ExploreMenu = ({ category, setCategory }) => {
     <div className="explore-menu" id="explore-menu">
       <h1>explore our menu</h1>
       <p className="explore-menu-text">
-        th we have delicious food diversify food veg nongev jain food ghar ka
-        khana.
+        Whether you are craving classic comfort food, vibrant vegetarian dishes,
+        or rich savory mains, our diverse menu has something for every palate.
       </p>
       <div className="explore-menu-list">
         {menu_list.map((item, index) => {

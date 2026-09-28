@@ -4,9 +4,13 @@ const Header = () => {
   return (
     <div className="header">
       <div className="header-contents">
-        <h2>Order your food here</h2>
-        <p>choose your delicious food here an mote ho jaao</p>
-        <button className="header-btn">view menu</button>
+        <h2>
+          Discover local favorites and explore new flavors with fast, reliable
+          delivery.
+        </h2>
+        <a href="#food-display" className="header-btn">
+          view menu
+        </a>
       </div>
     </div>
   );

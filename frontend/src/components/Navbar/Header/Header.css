@@ -20,7 +20,7 @@
 }
 
 .header-contents h2 {
-  font-size: Max(4.5vw, 22px);
+  font-size: Max(3.5vw, 18px);
   font-weight: 700;
   color: #fff;
   font-weight: 700;
@@ -31,7 +31,7 @@
   color: #fff;
 }
 
-.header-contents button {
+.header-contents a {
   border: none;
   color: #747474;
   font-weight: 700;
@@ -39,6 +39,7 @@
   background-color: white;
   font-size: Max(1.5vw, 14px);
   border-radius: 35px;
+  cursor: pointer;
 }
 
 @media (max-width: 1050px) {
