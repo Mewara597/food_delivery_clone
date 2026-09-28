@@ -1,4 +1,6 @@
 .navbar {
+  width: 100%;
+  box-sizing: border-box;
   padding: 20px 0px;
   display: flex;
   justify-content: space-between;
@@ -84,7 +86,29 @@
 }
 
 @media (max-width: 750px) {
+  .navbar {
+    padding: 12px 10px;
+    gap: 10px;
+  }
+
+  .navbar .logo {
+    width: 100px;
+  }
+
   .navbar-menu {
     display: none;
+  }
+
+  .navbar-right {
+    gap: 8px;
+  }
+
+  .navbar-right img {
+    width: 18px;
+  }
+
+  .navbar-right button {
+    padding: 8px 12px;
+    font-size: 13px;
   }
 }
